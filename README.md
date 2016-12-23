@@ -12,3 +12,19 @@ https://api.stattleship.com/
 Players images are displayed using following API:
 https://github.com/hlyford/nba-headshot-api
 
+3rd party libs used:
+
+Used for diplaying statistics data in a table view:
+https://github.com/InQBarna/TableFixHeaders
+
+Circle ImageView
+https://github.com/hdodenhof/CircleImageView
+
+Ripple effect (to support lower APIs)
+https://github.com/balysv/material-ripple
+
+Retrofit
+https://square.github.io/retrofit/
+
+RxAndroid 
+https://github.com/ReactiveX/RxAndroid
