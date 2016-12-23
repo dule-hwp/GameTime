@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GameTime.iml" filepath="$PROJECT_DIR$/GameTime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/table-fix-headers-lib/table-fix-headers-lib.iml" filepath="$PROJECT_DIR$/table-fix-headers-lib/table-fix-headers-lib.iml" />
+    </modules>
+  </component>
+</project>

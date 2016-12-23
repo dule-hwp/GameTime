@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardPreventCornerOverlap="true"
+        android:layout_marginTop="-3dp"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginRight="-3dp"
+        app:cardElevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/btnPreviousDay"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:contentDescription="@string/previous_day"
+                android:src="@drawable/ic_arrow_back_black_24dp" />
+
+            <TextView
+                android:id="@+id/tvGamesDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/btnPreviousDay"
+                android:layout_alignTop="@id/btnPreviousDay"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+                android:drawableStart="@android:drawable/ic_menu_my_calendar"
+                android:gravity="center"
+                android:hint="@string/app_name" />
+
+            <ImageButton
+                android:id="@+id/btnNextDay"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:contentDescription="@string/next_day"
+                android:src="@drawable/ic_arrow_forward_black_24dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvGames"
+            android:name="hwp.gametime.fragments.GamesFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="LinearLayoutManager"
+            tools:context="hwp.gametime.fragments.GamesFragment"
+            tools:listitem="@layout/fragment_game"
+
+            />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>
+
+
+

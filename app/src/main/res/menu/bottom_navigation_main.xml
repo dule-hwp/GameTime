@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_games"
+        android:enabled="true"
+        android:icon="@drawable/ic_basketball_24dp"
+        android:title="@string/text_games"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_favourites"
+        android:enabled="true"
+        android:icon="@drawable/ic_favorite_white_24dp"
+        android:title="@string/text_favorites"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/action_search"
+        android:enabled="true"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+</menu>

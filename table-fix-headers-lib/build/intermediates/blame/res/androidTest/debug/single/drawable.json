@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/dusan_cvetkovic/AndroidStudioProjects/GameTime/table-fix-headers-lib/build/intermediates/res/merged/androidTest/debug/drawable/shadow_top.xml",
+        "source": "/Users/dusan_cvetkovic/AndroidStudioProjects/GameTime/table-fix-headers-lib/build/intermediates/bundles/debug/res/drawable/shadow_top.xml"
+    },
+    {
+        "merged": "/Users/dusan_cvetkovic/AndroidStudioProjects/GameTime/table-fix-headers-lib/build/intermediates/res/merged/androidTest/debug/drawable/shadow_bottom.xml",
+        "source": "/Users/dusan_cvetkovic/AndroidStudioProjects/GameTime/table-fix-headers-lib/build/intermediates/bundles/debug/res/drawable/shadow_bottom.xml"
+    },
+    {
+        "merged": "/Users/dusan_cvetkovic/AndroidStudioProjects/GameTime/table-fix-headers-lib/build/intermediates/res/merged/androidTest/debug/drawable/shadow_left.xml",
+        "source": "/Users/dusan_cvetkovic/AndroidStudioProjects/GameTime/table-fix-headers-lib/build/intermediates/bundles/debug/res/drawable/shadow_left.xml"
+    },
+    {
+        "merged": "/Users/dusan_cvetkovic/AndroidStudioProjects/GameTime/table-fix-headers-lib/build/intermediates/res/merged/androidTest/debug/drawable/shadow_right.xml",
+        "source": "/Users/dusan_cvetkovic/AndroidStudioProjects/GameTime/table-fix-headers-lib/build/intermediates/bundles/debug/res/drawable/shadow_right.xml"
+    }
+]
