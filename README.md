@@ -12,7 +12,7 @@ https://api.stattleship.com/
 Players images are displayed using following API:
 https://github.com/hlyford/nba-headshot-api
 
-3rd party libs used:
+# 3rd party libs used:
 
 Used for diplaying statistics data in a table view:
 https://github.com/InQBarna/TableFixHeaders
