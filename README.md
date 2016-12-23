@@ -28,3 +28,9 @@ https://square.github.io/retrofit/
 
 RxAndroid 
 https://github.com/ReactiveX/RxAndroid
+
+# Plans before Google Play release:
+
+- add push notification support for the players and teams from favorites
+- add crashlytics or google firebase crash reporting
+- maybe add a showcase view (walkthrough for sirst time users)
